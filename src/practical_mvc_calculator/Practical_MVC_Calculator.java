@@ -16,6 +16,11 @@ public class Practical_MVC_Calculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Model model = new Model();
+        View view = new View();
+        Controller controller = new Controller(view,model);
+        view.setVisible(true);
+        
     }
     
 }
